@@ -1,0 +1,116 @@
+h1{
+    color:#fff;
+    background-color:rgb(231, 123, 177);
+    
+}
+h2{
+    color:rgb(107, 76, 76);
+    
+
+}
+
+
+h3{
+    color: rgb(165, 42, 99);
+   
+}
+
+
+body{
+    background-color: rgb(179, 157, 168);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-000000cb{
+    color: #faf9f9fb;
+    margin-top: 20px;
+    padding: 20px;
+    border: 10px solid rgb(70, 120, 179);
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font: size 20px;
+    
+}
+
+.text-danger{
+    color:rgb(247, 244, 243);
+    background-color: rgb(134, 182, 162);
+   
+}
+.text-justify{
+    text-justify: justify;
+}
+.text-center{
+    text-align: center;
+}
+.btn-welcome{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-welcome:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7,0 0 40px
+    #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s;
+}
+.btn-welcome span{
+    position:absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,trasparent,#a945c7);
+}
+.btn-welcome:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,trasparent,#a945c7);
+}
+.btn-welcome:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,trasparent,#a945c7);
+}
+.btn-welcome :hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,trasparent,#a945c7);
+}
+.btn-welcome:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
